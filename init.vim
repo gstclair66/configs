@@ -47,3 +47,4 @@ call plug#end()
 set number
 syntax on
 color gruvbox
+let g:airline_powerline_fonts = 1
