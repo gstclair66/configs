@@ -7,7 +7,7 @@ call plug#begin('~/.vim/plugged')
 
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
 Plug 'junegunn/vim-easy-align'
-
+Plug 'https://github.com/machakann/vim-highlightedyank.git'
 " Any valid git URL is allowed
 Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 
@@ -47,4 +47,4 @@ call plug#end()
 set number
 syntax on
 color gruvbox
-let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts=1
