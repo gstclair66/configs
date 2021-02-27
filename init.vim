@@ -42,6 +42,7 @@ Plug 'ncm2/ncm2-path'
 Plug 'davidhalter/jedi-vim'
 let g:airline_theme='cobalt2'
 let g:python3_host_prog='/home/gstclair/.pyenv/versions/neovim/bin/python'
+let g:go_version_warning=0
 
 call plug#end()
 set number
